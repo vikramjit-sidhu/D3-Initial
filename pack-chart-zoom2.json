@@ -1,0 +1,99 @@
+{
+	"name": "Vikramjit Sidhu",
+	"children": [
+	{
+		"name": "Banking",
+		"children": [
+			{ "name": "FS-BP(Business Partner)", "skill": "Expert" },
+			{ "name": "FS-CML(Consumer and Mortgage Loans)", "skill": "Proficient" },
+			{ "name": "FS-CMS(Collateral Management)", "skill": "Beginner" },
+			{ "name": "FS-MCM(Master Contract Management)", "skill": "" },
+			{ "name": "FS-AM (Account Management)", "skill": "" },
+			{ "name": "Account Origination", "skill": "" },
+			{ "name": "Payment Engine", "skill": "" },
+			{ "name": "Bank Analyzer", "skill": "" },
+			{ "name": "FSCM - Treasury & Risk Management", "skill": "" },
+			{ "name": "FSCM - Cash & Liquidity Management", "skill": "" },
+			{ "name": "FSCM - Credit Management", "skill": "" },
+			{ "name": "FS-CM - Claims Management", "skill": "Proficient" },
+			{ "name": "FS-CD - Collections & Disbursement", "skill": "Proficient" },
+			{ "name": "FS-RI - ReInsurance Management", "skill": "Beginner" },
+			{ "name": "FS-ICM - Incentive & Commission Management", "skill": "" },
+			{ "name": "SAP FI Basic", "skill": "" }
+		]
+	},
+	
+	{
+		"name": "ERP Log SCM",
+		"children": [
+			{
+				"name": "SCM",
+				"children": [
+					{ "name": "Advanced Planning and Optimization", "skill": "Proficient" },
+					{ "name": "Extended Warehouse Management", "skill": "Expert" },
+					{ "name": "SAP Enterprise Inventory and Service-Level Optimization", "skill": "Proficient" },
+					{ "name": "Event Management", "skill": "Proficient" },
+					{ "name": "Forecasting and Replenishment", "skill": "Beginner" },
+					{ "name": "Supply Network Collaboration", "skill": "Proficient" },
+					{ "name": "SAP Enterprise Demand Sensing", "skill": "Proficient" },
+					{ "name": "Inventory Optimization", "skill": "Proficient" }
+				]
+			
+			},
+			{
+				"name": "SD",
+				"children": [
+					{ "name": "Basic Functions", "skill": "Expert" },
+					{ "name": "Master Data", "skill": "Expert" },
+					{ "name": "Outbound Delivery & Billing", "skill": "Expert" },
+					{ "name": "Sales Support", "skill": "Expert" },
+					{ "name": "Contract Handling", "skill": "Expert" }
+				]
+			},
+			{
+				"name": "MM",
+				"children": [
+					{ "name": "Purchasing", "skill": "Expert" },
+					{ "name": "Consumption-Based Planning", "skill": "Expert" },
+					{ "name": "Inventory Management", "skill": "Expert" },
+					{ "name": "Inbound Delivery", "skill": "Expert" },
+					{ "name": "WM", "skill": "Proficient" },
+					{ "name": "Invoice Verification", "skill": "Expert" },
+					{ "name": "Services Management", "skill": "" }
+				]
+			},
+			{ "name": "IS-OIL", "skill": "Expert" },
+			{ "name": "Plant Maintenance & Customer service", "skill": "" },
+			{ "name": "Production Planning", "skill": "Proficient" },
+			{ "name": "Transportation", "skill": "" },
+			{ "name": "Commodity Management", "skill": "" },
+			{ "name": "GRC/IDM", "skill": "" }
+		]
+	},
+	{
+		"name":"Technical",
+		"children": [
+			{ "name": "ABAP", "skill": "Expert" },
+			{ "name": "ABAP OO", "skill": "Expert" },
+			{ "name": "WD ABAP", "skill": "Proficient" },
+			{ "name": "SAP BI", "skill": "" },
+			{ "name": "SAP PI", "skill": "" },
+			{ "name": "Mobility - SUP", "skill": "" },
+			{ "name": "Mobility - IOS", "skill": "" },
+			{ "name": "Mobility - Android", "skill": "" },
+			{ "name": "Mobility - Syclo", "skill": "" },
+			{ "name": "JAVA", "skill": "" },
+			{ "name": "WebChannel", "skill": "" },
+			{ "name": "HANA", "skill": "Beginner" },
+			{ "name": "BOPF", "skill": "" },
+			{ "name": "UI 5", "skill": "" },
+			{ "name": "Lumira", "skill": "" },
+			{ "name": "Performance Optimization", "skill": "Beginner" },
+			{ "name": "TAM & Design", "skill": "" },
+			{ "name": "Security", "skill": "Proficient" },
+			{ "name": "Project Management", "skill": "" },
+			{ "name": "CD Methodology", "skill": "Proficient" }
+		]
+	}	
+	]
+}

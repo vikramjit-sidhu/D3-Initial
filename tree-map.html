@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<script src="javascript/d3.min.js"></script>
+	<title>d3 Test</title>
+</head>
+
+
+<body>
+	
+	<script>
+		
+		var height = 600, width = 600, margin = 100;
+	
+		var canvas = d3.select("body")
+						.append("svg")
+						.attr("height", height+margin)
+						.attr("width", width+margin);
+		
+		var canGroup = canvas.append("g")
+						.attr("transform", "translate(" + margin + "," + margin + ")");
+						
+		var treemap = d3.layout.treemap()
+						.size([height-margin, width-margin]);
+		
+		var colorMap = d3.scale.category10();
+		
+		d3.json("tree-data.json", function(data) {
+			var treeData = treemap.nodes(data);
+
+			var subtrees = canGroup.selectAll(".leaves")
+							.data(treeData)
+							.enter()
+								.append("g")
+								.attr("class", "leaves");
+			
+			console.log(treeData);
+			
+			subtrees.append("rect")
+					.attr("x", function(d) { return d.x })
+					.attr("y", function(d) { return d.y })
+					.attr("width", function(d) { return d.dx })
+					.attr("height", function(d) { return d.dy })
+					.attr("stroke", "white")
+					.attr("stroke-width", 2)
+					.attr("fill", function(d) { return d.children ? null : colorMap(d.value) });
+								
+			subtrees.append("text")
+					.text(function(d) { return d.children ? null : d.name })
+					.attr("x", function(d) { return d.x + d.dx/2 })
+					.attr("y", function(d) { return d.y + d.dy/2 })
+					.attr("fill", "black")
+					.attr("text-anchor", "middle");
+					
+		});
+	
+	</script>
+	
+</body>
+
+</html>
