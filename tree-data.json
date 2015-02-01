@@ -1,18 +1,18 @@
 	{"name":"Lord Rickard Stark",
-	"value":150,
-	"dead":"true",
+	"key":150,
+	"height":3,
 	"children": [
 		{"name":"Eddard",
-		"value":100,
-		"dead":"true",
+		"key":100,
+		"height":2,
 		"children": [
-			{"name":"Jon", "value":50, "dead":"false"},
-			{"name":"Robb", "value":50, "dead":"true"},
-			{"name":"Brandon", "value":50, "dead":"false"},
-			{"name":"Rickon", "value":50, "dead":"false"}
+			{"name":"Jon", "key":50, "height":1},
+			{"name":"Robb", "key":50, "height":1},
+			{"name":"Brandon", "key":50, "height":1},
+			{"name":"Rickon", "key":50, "height":1}
 		]},
 		
-		{"name":"Brandon", "value":120, "dead":"true"},
-		{"name":"Lyanna", "value":100, "dead":"true"},
-		{"name":"Benjen", "value":90, "dead":"unknown"}
+		{"name":"Brandon", "key":120, "height":1},
+		{"name":"Lyanna", "key":100, "height":1},
+		{"name":"Benjen", "key":90, "height":1}
 	]}
